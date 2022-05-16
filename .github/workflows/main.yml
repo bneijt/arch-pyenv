@@ -27,6 +27,7 @@ jobs:
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v3
+        with:
           images: bneijt/arch-python
           tags: |
             type=ref,event=branch

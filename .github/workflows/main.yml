@@ -15,6 +15,7 @@ jobs:
     strategy:
       matrix:
         python_version:
+          - 3.8.13
           - 3.9.12
           - 3.10.4
     steps:
